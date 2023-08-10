@@ -1,0 +1,34 @@
+.main-container {
+  width: 20rem;
+  height: 32rem;
+  margin: 5rem auto;
+  background-color: silver;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.row {
+  flex-direction: row;
+}
+
+#output,
+#input {
+  text-align: right;
+  height: 4rem;
+  background-color: white;
+  margin: 1rem;
+  padding-right: 0.5rem;
+  padding-top: 0.75rem;
+  font-size: 2rem;
+  width: 15rem;
+  max-width: 15rem;
+  overflow: auto;
+}
+
+#output {
+  margin-bottom: 0.25rem;
+}
+
+#input {
+  margin-top: 0.25rem;
+}
